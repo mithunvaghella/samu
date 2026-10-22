@@ -1,13 +1,11 @@
 # Daily Flow updates
 
-Public distribution feed for Daily Flow, a personal Mac work journal.
+Latest: **0.2.1** — version number display and Today button.
 
-## Install once
-Download [Daily Flow 0.2.0](https://raw.githubusercontent.com/mithunvaghella/samu/main/updates/DailyFlow-0.2.0.zip), extract it, and replace Daily Flow.app in Applications. Quit the running app before replacing it. Keep one installed copy.
+If you already installed 0.2.0, open Daily Flow and choose **Check for Updates…**, then install 0.2.1. No manual extraction is needed.
 
-## Future updates
-Choose **Check for Updates…** in the Daily Flow menu or sidebar. Updates are verified using Sparkle signatures before installation. Notes and activity stay on your Mac.
+First installation: download [Daily Flow 0.2.1](https://raw.githubusercontent.com/mithunvaghella/samu/main/updates/DailyFlow-0.2.1.zip), extract the app and move it to Applications.
 
-macOS 13+, Apple Silicon. This personal build is ad-hoc signed and is not Apple notarized. Initial launch may require approval in macOS Privacy & Security.
+Updates use Sparkle 2.10.0 with signed feeds and signed archives. macOS 13+, Apple Silicon. Personal build, ad-hoc signed, not Apple notarized.
 
-No personal activity, notes, settings, or private signing keys are stored in this repository.
+Activity, notes, settings and private signing keys are not stored in this repository.
