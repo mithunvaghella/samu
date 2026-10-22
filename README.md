@@ -1,11 +1,9 @@
 # Daily Flow updates
 
-Latest: **0.2.1** — version number display and Today button.
+Latest: **0.2.2** — remembers whether tracking is on after reopening or an update. If manually paused it stays paused; closed time is never backfilled. After upgrading from 0.2.1 or older, start tracking once to save your preference.
 
-If you already installed 0.2.0, open Daily Flow and choose **Check for Updates…**, then install 0.2.1. No manual extraction is needed.
+Open Daily Flow and choose **Check for Updates…**. Keep one installed copy in Applications.
 
-First installation: download [Daily Flow 0.2.1](https://raw.githubusercontent.com/mithunvaghella/samu/main/updates/DailyFlow-0.2.1.zip), extract the app and move it to Applications.
+First install: [Daily Flow 0.2.2](https://raw.githubusercontent.com/mithunvaghella/samu/main/updates/DailyFlow-0.2.2.zip). macOS 13+, Apple Silicon. Personal build, ad-hoc signed, not Apple notarized.
 
-Updates use Sparkle 2.10.0 with signed feeds and signed archives. macOS 13+, Apple Silicon. Personal build, ad-hoc signed, not Apple notarized.
-
-Activity, notes, settings and private signing keys are not stored in this repository.
+Updates use Sparkle 2.10.0 with signed feeds and archives. Activity, notes, settings and private signing keys are not stored in this repository.
