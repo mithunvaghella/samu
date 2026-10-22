@@ -1,9 +1,9 @@
-# Daily Flow updates
+# Daily Notes updates
 
-Latest: **0.2.2** — remembers whether tracking is on after reopening or an update. If manually paused it stays paused; closed time is never backfilled. After upgrading from 0.2.1 or older, start tracking once to save your preference.
+Latest: **0.2.3** — new Daily Notes name and updated logo throughout the app, menu bar, Dock icon and exports.
 
-Open Daily Flow and choose **Check for Updates…**. Keep one installed copy in Applications.
+Existing users: choose **Check for Updates…** in the installed app. Notes, activity and tracking preferences are preserved.
 
-First install: [Daily Flow 0.2.2](https://raw.githubusercontent.com/mithunvaghella/samu/main/updates/DailyFlow-0.2.2.zip). macOS 13+, Apple Silicon. Personal build, ad-hoc signed, not Apple notarized.
+[Download Daily Notes 0.2.3](https://raw.githubusercontent.com/mithunvaghella/samu/main/updates/DailyNotes-0.2.3.zip). macOS 13+, Apple Silicon. The internal application bundle filename and identifier retain the previous name for updater and data compatibility; the visible app name is Daily Notes.
 
-Updates use Sparkle 2.10.0 with signed feeds and archives. Activity, notes, settings and private signing keys are not stored in this repository.
+Personal build, ad-hoc signed, not Apple notarized. Updates use Sparkle 2.10.0 with signed feeds and archives. Personal activity, notes and private signing keys are not published here.
