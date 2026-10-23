@@ -1,4 +1,4 @@
-# Daily Notes — v0.2.7
+# Daily Notes — v0.2.8
 
 A personal Mac work journal. Apple Silicon, macOS 13 or newer. Local AI setup requires macOS 14 or newer.
 
@@ -37,3 +37,6 @@ Build the source with `zsh build.command` using Apple Command Line Tools. Tests 
 
 ## Grouped activity
 The timeline starts with collapsed app groups. Expand an app to see its window/title groups, then expand a window to see individual time entries. Matching trimmed titles within the same app share a group; different apps stay separate. Untitled activity stays in an explicit untitled group. Group totals sum recorded time without counting gaps. Each entry, window group and app group has a trash button with Yes/No confirmation. Grouping changes the view, not stored history or task notes.
+
+## WhatsApp exclusion
+WhatsApp desktop is added to excluded apps on upgrade, preserving your other exclusions. It is skipped for new activity and text capture. Existing history is retained; excluded apps are also omitted from new AI-summary requests. Browser-based WhatsApp is not covered by this app-name exclusion.
