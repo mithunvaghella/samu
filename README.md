@@ -1,4 +1,4 @@
-# Daily Notes — v0.2.6
+# Daily Notes — v0.2.7
 
 A personal Mac work journal. Apple Silicon, macOS 13 or newer. Local AI setup requires macOS 14 or newer.
 
@@ -34,3 +34,6 @@ YouTube exclusion supports Safari, Chrome, Edge, Brave, Vivaldi, Opera and Arc w
 Export Markdown notes or an all-day Outlook-compatible .ics file. Import the calendar file yourself; no Microsoft account sync is connected.
 
 Build the source with `zsh build.command` using Apple Command Line Tools. Tests are in Source/Tests. Sparkle 2.10.0 checks signed update archives and feeds. This personal app uses ad-hoc signing, without Apple notarization. The test suite exercises tracking, old-data compatibility, persistence and a simulated local AI server. Real-model quality and app-specific text capture require verification on your Mac after setup.
+
+## Grouped activity
+The timeline starts with collapsed app groups. Expand an app to see its window/title groups, then expand a window to see individual time entries. Matching trimmed titles within the same app share a group; different apps stay separate. Untitled activity stays in an explicit untitled group. Group totals sum recorded time without counting gaps. Each entry, window group and app group has a trash button with Yes/No confirmation. Grouping changes the view, not stored history or task notes.
