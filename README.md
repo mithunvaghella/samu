@@ -1,11 +1,11 @@
 # Daily Notes updates
 
-Latest: **0.2.4** — automatic activity notes now update independently of manual notes, with visible browser access warnings and a Set up browser access button.
+Latest: **0.2.5** — corrects idle detection to use all input events, schedules the sampler on the main run loop in common modes, and shows the last activity check and explicit missing-active-app status.
 
-Choose **Check for Updates…** in the installed app. If there is no recorded activity, start tracking and work in another app for at least 10 seconds. With Exclude YouTube enabled, allow Daily Notes (or its former name Daily Flow) access to the browser in macOS Privacy & Security > Automation. URL checks are not saved.
+Choose **Check for Updates…**. Start tracking, then use another desktop app for 15 seconds. The automatic activity notes should appear; manual notes stay separate. Browser tracking with Exclude YouTube enabled also requires browser Automation access.
 
-Manual notes are preserved. Automatic activity notes can be hidden individually with confirmation and restored without replacing manual notes. Exports contain both sections.
+Tests cover timer firing, samples for Claude, Teams, Foxit and PowerPoint, idle and sleep boundaries, exclusions, browser permission failure, YouTube exclusion, saved tracking preference and automatic/manual notes.
 
-[Download Daily Notes 0.2.4](https://raw.githubusercontent.com/mithunvaghella/samu/main/updates/DailyNotes-0.2.4.zip). macOS 13+, Apple Silicon. Personal build, ad-hoc signed, not Apple notarized. Internal bundle identity retains the earlier name for update and data compatibility.
+[Download Daily Notes 0.2.5](https://raw.githubusercontent.com/mithunvaghella/samu/main/updates/DailyNotes-0.2.5.zip). macOS 13+, Apple Silicon. Ad-hoc signed personal build, not Apple notarized. The internal bundle identity retains its earlier name for updater and data compatibility.
 
-Personal activity, notes, settings and private signing keys are not published here.
+Personal activity, notes and private signing keys are not published here.
